@@ -235,7 +235,7 @@ void Update(void)
     {
       JumptoUserMain();
     }
-    else
+    else  //写入Flash不完整 ，擦除
     {
        for(uint8_t i=BLOCK_OPERATION;i<=BLOCK_END;i++)
          {
