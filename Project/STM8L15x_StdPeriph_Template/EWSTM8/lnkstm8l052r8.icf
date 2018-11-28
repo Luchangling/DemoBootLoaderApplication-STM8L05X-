@@ -5,7 +5,7 @@
 //      Copyright 2015 IAR Systems AB.
 //
 /////////////////////////////////////////////////////////////////
-
+//Bootloader Flash 地址从0X8000到0X9000共4KB的空间
 define memory with size = 16M;
 
 define region TinyData = [from 0x00 to 0xFF];
